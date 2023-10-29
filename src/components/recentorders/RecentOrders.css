@@ -1,0 +1,11 @@
+.recentOrders {
+  padding: 10px;
+}
+
+.recentOrdersTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #333;
+}
