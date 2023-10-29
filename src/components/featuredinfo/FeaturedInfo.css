@@ -7,7 +7,7 @@
 .featuredItem {
   flex: 1;
   display: flex;
-  margin: 0px 20px;
+  margin: 0px 10px;
   /* padding: 30px; */
   border-radius: 10px;
   cursor: pointer;
@@ -17,7 +17,11 @@
 }
 
 .featuredIconContainer {
-  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  aspect-ratio: 1/1;
 }
 
 .featuredItem:nth-child(1) .featuredIconContainer {
@@ -53,8 +57,8 @@
 }
 
 .featuredIcon {
-  width: 55px !important;
-  height: 55px !important;
+  width: 40px !important;
+  height: 40px !important;
 }
 
 .featuredInfo {
@@ -63,7 +67,7 @@
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  padding: 8px;
+  padding: 10px;
 }
 
 .featuredTitle {
